@@ -1,2 +1,2 @@
 # task3__
-chat boy vvoice
+This project is an Arabic-speaking voice assistant that records the user’s speech, transcribes it into text, generates a smart reply using artificial intelligence, and then speaks the reply back. It records audio using the sounddevice library and transcribes Arabic speech into text using the offline Vosk model (vosk-model-ar-mgb2-0.4). The transcribed text is sent to the Cohere API, which generates a short and clear reply in Arabic. The reply is then converted into speech using the pyttsx3 library and played back to the user. This assistant works offline for speech recognition, supports Arabic, and integrates AI to provide intelligent responses
